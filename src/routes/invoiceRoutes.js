@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.post('/invoice', addInvoice);
 router.get('/invoices', getInvoices);
-router.delete('/:id', deleteInvoice);
+router.delete("/deleteinvoice/:id", deleteInvoice);
 
 module.exports = router;
